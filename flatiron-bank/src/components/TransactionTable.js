@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Table } from "react-bootstrap";
-import { getTransactions } from "./api";
+import { getTransactions } from "./Api";
 
 const TransactionTable = () => {
   const [transactions, setTransactions] = useState([]);

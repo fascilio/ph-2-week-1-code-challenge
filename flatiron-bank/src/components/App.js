@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import TransactionList from "./TransactionList";
 import AddTransactionForm from "./AddTransactionForm";
-import { getTransactions } from "./api";
+import Home from "./Home";
+import { getTransactions } from "./Api";
 
 const App = () => {
   const [transactions, setTransactions] = useState([]);
